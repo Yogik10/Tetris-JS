@@ -1,0 +1,122 @@
+Body {
+    background: url('pattern.png');
+}
+
+#startWindow{
+    background-color: #d3ffdd;
+    height: 160px;
+    width: 400px;
+    border: 10px solid #86ffa1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#enterName{
+    font-size: 20pt;
+    margin-left: 120px;
+}
+
+#tetris\.username{
+    font-size: 14pt;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+#button{
+    font-size: 14pt;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+#canvas{
+    border: 4px solid #bcfdb4;
+    margin-left: 500px;
+    margin-top: 30px;
+}
+
+#canvasNext{
+    border: 4px solid #bcfdb4;
+}
+
+#canvasNext1{
+    border: 4px solid #bcfdb4;
+}
+
+#nextFig{
+    position: absolute;
+    float: right;
+    margin-left: 850px;
+    margin-top: -630px;
+}
+
+#nextFigStr{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#gameInfo{
+    float: right;
+    font-size: 16pt;
+    font-weight: bold;
+    margin-left: 950px;
+    margin-top: -350px;
+    position: absolute;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+#records{
+    background-color: #d3ffdd;
+    height: 320px;
+    width: 200px;
+    border: 10px solid #86ffa1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20pt;
+    font-style: italic;
+}
+
+#recordsTitle{
+    margin-left: 50px;
+    margin-top: 0px
+}
+
+#yourScore{
+    float: right;
+}
+
+#tableRecords{
+    margin-left: auto;
+    margin-right: auto
+}
+
+#bestName0, #bestName1, #bestName2, #bestName3{
+    text-align: left;
+    margin-right: 50px;
+}
+
+#bestScore0, #bestScore1, #bestScore2, #bestScore3{
+    text-align: right;
+    margin-left: 50px;
+}
+
+#buttonGo{
+    font-size: 16pt;
+    width: 80px;
+    margin-left: 60px;
+}

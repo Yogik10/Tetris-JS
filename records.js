@@ -1,0 +1,9 @@
+document.getElementById("yourScore").innerHTML = localStorage["score"];
+document.getElementById("bestName0").innerHTML = localStorage["bestName0"];
+document.getElementById("bestsScore0").innerHTML = localStorage["bestScore0"];
+document.getElementById("bestName1").innerHTML = localStorage["bestName1"];
+document.getElementById("bestsScore1").innerHTML = localStorage["bestScore1"];
+document.getElementById("bestName2").innerHTML = localStorage["bestName2"];
+document.getElementById("bestsScore2").innerHTML = localStorage["bestScore2"];
+document.getElementById("bestName3").innerHTML = localStorage["bestName3"];
+document.getElementById("bestsScore3").innerHTML = localStorage["bestScore3"];
